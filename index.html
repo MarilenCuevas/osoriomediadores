@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OsorioMediadores</title>
+  <meta name="description" content="En OsorioMediadores somos especialistas en mediación familiar, asesoría legal y resolución de conflictos. Ayudamos a las familias a encontrar acuerdos justos y equitativos sin recurrir a juicios largos y costosos.">
+  <meta name="keywords" content="mediación familiar, asesoría legal, resolución de conflictos, mediadores, derecho familiar, conflictos civiles, Osorio Mediadores">
+  <meta name="robots" content="index, follow">
+  <title>OsorioMediadores | Mediación Familiar y Resolución de Conflictos</title>
+
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -126,7 +130,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.jpg" alt="Logo Osorio Mediadores" />
+    <img src="logo.jpg" alt="Logo de Osorio Mediadores">
     <div>
       <h1>OsorioMediadores</h1>
       <p>Especialistas en Mediación Familiar y Resolución de Conflictos</p>
@@ -141,135 +145,81 @@
   </nav>
 
   <!-- Imagen de portada -->
-  <img src="portada.jpg" alt="Portada Osorio Mediadores" class="banner">
+  <img src="portada.jpg" alt="Imagen representativa de Osorio Mediadores" class="banner">
 
   <section id="nosotros" class="card">
-  <h2>Sobre Nosotros</h2>
-  <p>En <strong>OsorioMediadores</strong>, somos especialistas en mediación familiar y asesoría legal, ofreciendo soluciones rápidas y efectivas para resolver disputas familiares. Nuestra misión es ayudar a las familias a encontrar acuerdos justos y equitativos, siempre garantizando el bienestar de todas las partes involucradas.</p>
-
-  <p>Gracias a nuestra amplia experiencia en mediación familiar, nuestros clientes pueden resolver sus conflictos de manera pacífica, sin tener que recurrir a juicios largos y costosos. Con nuestra asesoría legal, garantizamos que todas las partes involucradas tomen decisiones informadas y justas.</p>
-</section>
-
-  <section id="servicios" class="card">
-  <h2>Servicios</h2>
-  <ul>
-    <li><strong>Mediación Familiar:</strong> Facilitamos acuerdos entre miembros de la familia, promoviendo soluciones pacíficas en casos de disputas matrimoniales, custodias, herencias y más, sin necesidad de recurrir a un litigio judicial.</li>
-    <li><strong>Asesoría Jurídica en Derecho de Familia:</strong> Brindamos orientación legal especializada para situaciones familiares complejas, ayudando a tomar decisiones informadas y adaptadas a la normativa vigente.</li>
-    <li><strong>Resolución de Conflictos Civiles:</strong> Nos especializamos en la resolución de disputas civiles mediante la mediación, ofreciendo una alternativa rápida y efectiva a los procedimientos judiciales tradicionales.</li>
-    <li><strong>Acompañamiento en Procesos Legales:</strong> Proporcionamos apoyo durante todo el proceso legal, garantizando que nuestros clientes se sientan acompañados en cada paso, desde la consulta inicial hasta la resolución final del conflicto.</li>
-  </ul>
-</section>
-
-
-  <section id="equipo" class="card">
-  <h2>Nuestro Equipo</h2>
-  
-  <div class="accordion">
-    <div class="accordion-item">
-      <button class="accordion-button">Luis Mauricio Osorio Quiroz</button>
-      <div class="accordion-content">
-        <p>Ingeniero en Administración y Mediador Familiar especializado en resolución de conflictos. Con un Diplomado en Mediación Familiar, Luis Mauricio está registrado en el Registro Nacional de Mediadores del Ministerio de Justicia y Derechos Humanos y aplica su vasta experiencia en la resolución de conflictos familiares y laborales.</p>
-        <p><strong>Contacto:</strong> Correo: <a href="mailto:luis.mauricio@osoriomediadores.cl">luis.mauricio@osoriomediadores.cl</a></p>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <button class="accordion-button">Luis Alberto Osorio Cuevas</button>
-      <div class="accordion-content">
-        <p>Egresado de la carrera de Derecho de la Universidad Autónoma de Chile. Con dos años de experiencia en Tramitación de Causas en Derecho Penal, Derecho Familiar y Derecho Civil.</p>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <button class="accordion-button">Carla Elizabeth Osorio Q.</button>
-      <div class="accordion-content">
-        <p>Abogada con especialización en Derecho Familiar, Carla utiliza su experiencia para gestionar conflictos familiares y ofrecer soluciones adaptadas a las necesidades de cada familia. Su inscripción en el Registro Nacional de Mediadores asegura que sus servicios están respaldados por un conocimiento profundo en resolución de conflictos.</p>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<style>
-  /* Estilo del acordeón */
-  .accordion {
-    margin-top: 20px;
-  }
-
-  .accordion-item {
-    margin-bottom: 10px;
-  }
-
-  .accordion-button {
-    background-color: #34495e;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    text-align: left;
-    width: 100%;
-    cursor: pointer;
-    font-size: 1.1em;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-  }
-
-  .accordion-button:hover {
-    background-color: #2c3e50;
-  }
-
-  .accordion-content {
-    padding: 10px 20px;
-    background-color: #f1f1f1;
-    display: none;
-    border-radius: 6px;
-    margin-top: 10px;
-  }
-
-  .accordion-button.active + .accordion-content {
-    display: block;
-  }
-</style>
-
-<script>
-  // Script para hacer el acordeón interactivo
-  const accordions = document.querySelectorAll('.accordion-button');
-
-  accordions.forEach((accordion) => {
-    accordion.addEventListener('click', () => {
-      accordion.classList.toggle('active');
-      const content = accordion.nextElementSibling;
-      if (content.style.display === 'block') {
-        content.style.display = 'none';
-      } else {
-        content.style.display = 'block';
-      }
-    });
-  });
-</script>
-
-
-  <section id="contacto" class="card">
-    <h2>Contacto</h2>
-    <form action="https://formsubmit.co/luis.mauricio@osoriomediadores.cl" method="POST">
-      <label for="nombre">Nombre</label>
-      <input type="text" id="nombre" name="nombre" required>
-      <label for="email">Correo electrónico</label>
-      <input type="email" id="email" name="email" required>
-      <label for="mensaje">Mensaje</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+    <h2>Sobre Nosotros</h2>
+    <p>En <strong>OsorioMediadores</strong>, somos especialistas en mediación familiar y asesoría legal, ofreciendo soluciones rápidas y efectivas para resolver disputas familiares. Nuestra misión es ayudar a las familias a encontrar acuerdos justos y equitativos, siempre garantizando el bienestar de todas las partes involucradas.</p>
+    <p>Gracias a nuestra amplia experiencia en mediación familiar, nuestros clientes pueden resolver sus conflictos de manera pacífica, sin tener que recurrir a juicios largos y costosos. Con nuestra asesoría legal, garantizamos que todas las partes involucradas tomen decisiones informadas y justas.</p>
   </section>
 
-  <footer>
-    &copy; 2025 OsorioMediadores. Todos los derechos reservados.
-  </footer>
+  <section id="servicios" class="card">
+    <h2>Servicios</h2>
+    <ul>
+      <li><strong>Mediación Familiar:</strong> Facilitamos acuerdos entre miembros de la familia, promoviendo soluciones pacíficas en casos de disputas matrimoniales, custodias, herencias y más, sin necesidad de recurrir a un litigio judicial.</li>
+      <li><strong>Asesoría Jurídica en Derecho de Familia:</strong> Brindamos orientación legal especializada para situaciones familiares complejas, ayudando a tomar decisiones informadas y adaptadas a la normativa vigente.</li>
+      <li><strong>Resolución de Conflictos Civiles:</strong> Nos especializamos en la resolución de disputas civiles mediante la mediación, ofreciendo una alternativa rápida y efectiva a los procedimientos judiciales tradicionales.</li>
+      <li><strong>Acompañamiento en Procesos Legales:</strong> Proporcionamos apoyo durante todo el proceso legal, garantizando que nuestros clientes se sientan acompañados en cada paso, desde la consulta inicial hasta la resolución final del conflicto.</li>
+    </ul>
+  </section>
 
-  <!-- Botón flotante de WhatsApp -->
-  <a class="whatsapp" href="https://wa.me/56933519474" target="_blank" title="Chatea con nosotros en WhatsApp">
-    💬
-  </a>
-</body>
-</html>
+  <section id="equipo" class="card">
+    <h2>Nuestro Equipo</h2>
+    
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-button" aria-expanded="false" aria-controls="section1">Luis Mauricio Osorio Quiroz</button>
+        <div id="section1" class="accordion-content" aria-labelledby="section1">
+          <p>Ingeniero en Administración y Mediador Familiar especializado en resolución de conflictos. Con un Diplomado en Mediación Familiar, Luis Mauricio está registrado en el Registro Nacional de Mediadores del Ministerio de Justicia y Derechos Humanos y aplica su vasta experiencia en la resolución de conflictos familiares y laborales.</p>
+          <p><strong>Contacto:</strong> Correo: <a href="mailto:luis.mauricio@osoriomediadores.cl">luis.mauricio@osoriomediadores.cl</a></p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button" aria-expanded="false" aria-controls="section2">Luis Alberto Osorio Cuevas</button>
+        <div id="section2" class="accordion-content" aria-labelledby="section2">
+          <p>Egresado de la carrera de Derecho de la Universidad Autónoma de Chile. Con dos años de experiencia en Tramitación de Causas en Derecho Penal, Derecho Familiar y Derecho Civil.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button" aria-expanded="false" aria-controls="section3">Carla Elizabeth Osorio Q.</button>
+        <div id="section3" class="accordion-content" aria-labelledby="section3">
+          <p>Abogada con especialización en Derecho Familiar, Carla utiliza su experiencia para gestionar conflictos familiares y ofrecer soluciones adaptadas a las necesidades de cada familia. Su inscripción en el Registro Nacional de Mediadores asegura que sus servicios están respaldados por un conocimiento profundo en resolución de conflictos.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <style>
+    /* Estilo del acordeón */
+    .accordion {
+      margin-top: 20px;
+    }
+
+    .accordion-item {
+      margin-bottom: 10px;
+    }
+
+    .accordion-button {
+      background-color: #34495e;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      text-align: left;
+      width: 100%;
+      cursor: pointer;
+      font-size: 1.1em;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .accordion-button:hover {
+      background-color: #2c3e50;
+    }
+
+    .accordion-content {
+      padding: 
 
 
